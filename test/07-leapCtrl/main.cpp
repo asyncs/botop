@@ -86,7 +86,7 @@ void testLeapCtrl() {
 
         double ctrlTimeNow = bot.get_t();
         times -= ctrlTimeNow - ctrlTime;
-        bot.move(path, vels, times, true, ctrlTime);
+        bot.move(path, times, true, ctrlTime);
       }else{
         bot.moveTo(shortMPC.path[-1]);
       }

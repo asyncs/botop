@@ -139,3 +139,5 @@ srv_gen
 *Feedback.msg
 *Goal.msg
 *Result.msg
+.vscode/c_cpp_properties.json
+.vscode/settings.json

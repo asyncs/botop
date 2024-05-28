@@ -1,5 +1,7 @@
-BASE = ../../../botop/rai
-BASE2 = ../../../botop/src
+BASE = ../../rai
+BASE2 = ../..
+
+DEPEND = Core Algo Gui Geo Kin Optim KOMO Franka Control BotOp
 
 OPENCV4 = 1
 
